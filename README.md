@@ -1,86 +1,124 @@
-LawSync – Legal Consultation & Lawyer Appointment System
-Project Overview
+⚖️ LawSync – Legal Consultation & Lawyer Appointment System
+📌 Project Overview
 
-LawSync is a web-based legal consultation platform developed using Laravel. The system bridges the gap between users seeking legal assistance and verified lawyers by providing appointment booking, case history tracking, lawyer profile management, and review functionality.
+LawSync is a web-based Legal Consultation and Lawyer Appointment Management System developed using Laravel and MySQL. The platform connects users with verified lawyers, enabling appointment booking, case history management, lawyer profile management, reviews and ratings, and administrative monitoring.
 
-The platform supports three major stakeholders:
+The system aims to simplify the process of finding legal assistance and managing lawyer-client interactions through a centralized digital platform.
 
-Users
-Lawyers
-Administrators
-Key Features
-User Module
-User Registration and Login
-Search Lawyers by Category
+🎯 Objectives
+Connect users with professional lawyers.
+Simplify appointment booking.
+Maintain case history records.
+Allow lawyer profile verification.
+Provide review and rating functionality.
+Enable efficient platform administration.
+
+🚀 Features
+
+👤 User Module
+User Registration & Login
+Search Lawyers by Specialization
 View Lawyer Profiles
 Book Appointments
 Track Appointment Status
 View Case History
-Submit Reviews and Ratings
+Submit Reviews & Ratings
 Manage Profile
-Lawyer Module
+
+⚖️ Lawyer Module
 Lawyer Registration
 Profile Management
-Manage Appointments
-Accept or Reject Appointments
+Accept/Reject Appointments
 Upload Case Histories
-View User Reviews
-Update Professional Information
-Admin Module
+Manage Professional Information
+View Reviews & Ratings
+
+🛠️ Admin Module
 Dashboard Analytics
 Manage Users
 Manage Lawyers
 Verify Lawyer Accounts
 Monitor Appointments
-View Platform Statistics
-Technology Stack
-Frontend
-HTML
-CSS
-Bootstrap
-JavaScript
-Blade Templates
-Backend
-Laravel 12
-PHP
-Database
-MySQL
-Visualization
-Chart.js
-Database Entities
+Platform Statistics
+
+🏗️ Technology Stack
+Technology	Used For
+Laravel 12	Backend Framework
+PHP	Server-side Development
+MySQL	Database
+Bootstrap 5	Frontend UI
+HTML/CSS	User Interface
+JavaScript	Client-side Logic
+Chart.js	Dashboard Analytics
+
+📊 Database Entities
 Users
 Lawyers
 Appointments
 Case Histories
 Reviews
-Project Workflow
+
+🔄 System Workflow
 User registers and logs in.
 User searches lawyers by specialization.
 User books an appointment.
 Lawyer receives appointment request.
-Lawyer accepts or rejects request.
+Lawyer accepts or rejects appointment.
 Lawyer uploads case history updates.
 User views appointment and case status.
-User submits review and rating.
-Admin monitors platform activities.
+User posts reviews and ratings.
+Admin monitors overall platform activity.
 
-
-Screenshots
-
-
+📷 Screenshots
 Home Page
-Lawyer Listing Page
+
+Lawyer Listing
+
 Appointment Booking
-Lawyer Dashboard
+
 Admin Dashboard
-Future Enhancements
-Online Payment Gateway
+
+Review System
+
+⚙️ Installation
+
+Clone the repository:
+
+git clone https://github.com/Samyak2319/LawSync-Legal-Consultation-System.git
+
+Move into the project folder:
+
+cd LawSync-Legal-Consultation-System
+
+Install dependencies:
+
+composer install
+
+Create environment file:
+
+copy .env.example .env
+
+Generate application key:
+
+php artisan key:generate
+
+Configure MySQL database in .env.
+
+Run migrations:
+
+php artisan migrate
+
+Start the development server:
+
+php artisan serve
+
+🔮 Future Enhancements
 Real-time Chat System
-AI Legal Assistant
-Notification System
 Video Consultation
-Author
+AI Legal Assistant
+
+
+👨‍💻 Author
 
 Samyak Ghosh
-
 B.Tech CSE (Data Science)
