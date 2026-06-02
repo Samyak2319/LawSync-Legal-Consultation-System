@@ -71,17 +71,17 @@ Admin monitors overall platform activity.
 
 📷 Screenshots
 Home Page
-
+![Home Page](screenshots/home.png)
 Lawyer Listing
-
+![Lawyer Page](screenshots/lawyers.png)
 Appointment Booking
-
-Admin Dashboard
-
-Review System
+![Appointment Page](screenshots/appointment.png)
+Lawyer Dashboard
+![Lawyer Dashboard Page](screenshots/dashboard.png)
+Updation System
+![Edit Profile Page](screenshots/review.png)
 
 ⚙️ Installation
-
 Clone the repository:
 
 git clone https://github.com/Samyak2319/LawSync-Legal-Consultation-System.git
