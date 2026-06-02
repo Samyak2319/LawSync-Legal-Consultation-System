@@ -1,66 +1,124 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+⚖️ LawSync – Legal Consultation & Lawyer Appointment System
+📌 Project Overview
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+LawSync is a web-based Legal Consultation and Lawyer Appointment Management System developed using Laravel and MySQL. The platform connects users with verified lawyers, enabling appointment booking, case history management, lawyer profile management, reviews and ratings, and administrative monitoring.
 
-## About Laravel
+The system aims to simplify the process of finding legal assistance and managing lawyer-client interactions through a centralized digital platform.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+🎯 Objectives
+Connect users with professional lawyers.
+Simplify appointment booking.
+Maintain case history records.
+Allow lawyer profile verification.
+Provide review and rating functionality.
+Enable efficient platform administration.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+🚀 Features
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+👤 User Module
+User Registration & Login
+Search Lawyers by Specialization
+View Lawyer Profiles
+Book Appointments
+Track Appointment Status
+View Case History
+Submit Reviews & Ratings
+Manage Profile
 
-## Learning Laravel
+⚖️ Lawyer Module
+Lawyer Registration
+Profile Management
+Accept/Reject Appointments
+Upload Case Histories
+Manage Professional Information
+View Reviews & Ratings
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+🛠️ Admin Module
+Dashboard Analytics
+Manage Users
+Manage Lawyers
+Verify Lawyer Accounts
+Monitor Appointments
+Platform Statistics
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+🏗️ Technology Stack
+Technology	Used For
+Laravel 12	Backend Framework
+PHP	Server-side Development
+MySQL	Database
+Bootstrap 5	Frontend UI
+HTML/CSS	User Interface
+JavaScript	Client-side Logic
+Chart.js	Dashboard Analytics
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+📊 Database Entities
+Users
+Lawyers
+Appointments
+Case Histories
+Reviews
 
-## Laravel Sponsors
+🔄 System Workflow
+User registers and logs in.
+User searches lawyers by specialization.
+User books an appointment.
+Lawyer receives appointment request.
+Lawyer accepts or rejects appointment.
+Lawyer uploads case history updates.
+User views appointment and case status.
+User posts reviews and ratings.
+Admin monitors overall platform activity.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+📷 Screenshots
+Home Page
+![Home Page](screenshots/home.png)
+Lawyer Listing
+![Lawyer Page](screenshots/lawyers.png)
+Appointment Booking
+![Appointment Page](screenshots/appointment.png)
+Lawyer Dashboard
+![Lawyer Dashboard Page](screenshots/dashboard.png)
+Updation System
+![Edit Profile Page](screenshots/review.png)
 
-### Premium Partners
+⚙️ Installation
+Clone the repository:
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+git clone https://github.com/Samyak2319/LawSync-Legal-Consultation-System.git
 
-## Contributing
+Move into the project folder:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+cd LawSync-Legal-Consultation-System
 
-## Code of Conduct
+Install dependencies:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+composer install
 
-## Security Vulnerabilities
+Create environment file:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+copy .env.example .env
 
-## License
+Generate application key:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+php artisan key:generate
+
+Configure MySQL database in .env.
+
+Run migrations:
+
+php artisan migrate
+
+Start the development server:
+
+php artisan serve
+
+🔮 Future Enhancements
+Real-time Chat System
+Video Consultation
+AI Legal Assistant
+
+
+👨‍💻 Author
+
+Samyak Ghosh
+B.Tech CSE (Data Science)
